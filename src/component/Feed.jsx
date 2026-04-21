@@ -1,7 +1,28 @@
-import React from "react";
+import { useState, useEffect } from "react";
+import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
 
 function Feed() {
-  return <div>Feed</div>;
+  return (
+    <Stack sx={{ flexDirection: { xs: "column", md: "row" } }} gap={2}>
+      <Box
+        sx={{
+          height: { xs: "auto", md: "90vh" },
+          borderRight: "1px solid #3d3d3d",
+          px: { xs: 0, md: 2 },
+        }}
+      >
+        <Typography
+          variant="body2"
+          className="copyright"
+          sx={{ marginTop: "1px", color: "#fff" }}
+        >
+          Copy Right 2026 by Ashraf
+        </Typography>
+      </Box>
+    </Stack>
+  );
 }
 
 export default Feed;
