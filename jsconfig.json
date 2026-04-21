@@ -4,6 +4,7 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "jsx": "react-jsx",
+    "checkJs": false,
     "ignoreDeprecations": "5.0"
   },
   "include": ["src/**/*"],
