@@ -1,4 +1,3 @@
-import HomeIcon from "@mui/icons-material/Home";
 import CodeIcon from "@mui/icons-material/Code";
 import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
@@ -10,8 +9,9 @@ import TheaterComedyIcon from "@mui/icons-material/TheaterComedy";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
 import MenuBookIcon from "@mui/icons-material/MenuBook"; // أيقونة جديدة مناسبة للقرآن
+import HomeIcon from "@mui/icons-material/Home";
 
-export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
+export const logo = "https://i.ibb.co/s9Qys2j/logo.png"; // اللوجو بتاع الموقع (مش بيتغير)
 
 export const categories = [
   { name: "New", icon: <HomeIcon /> },
@@ -30,13 +30,17 @@ export const categories = [
   { name: "Comedy", icon: <TheaterComedyIcon /> },
   { name: "Gym", icon: <FitnessCenterIcon /> },
   { name: "Crypto", icon: <DeveloperModeIcon /> },
+  
 ];
 
-export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
-export const demoChannelUrl = "/channel/UCmXmlB4-HJytD7wek0Uo97A";
-export const demoVideoUrl = "/video/GDa8kZLNhJ4";
-export const demoChannelTitle = "JavaScript Mastery";
-export const demoVideoTitle =
-  "Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI";
-export const demoProfilePicture =
-  "http://dergipark.org.tr/assets/app/images/buddy_sample.png";
+// 📺 بيانات القناة الرسمية للشيخ محمد صديق المنشاوي
+export const demoChannelUrl = "/channel/UCSdyoKDGT4Y8p6PFeeoCNnw";
+export const demoChannelTitle = "القناة الرسمية للشيخ محمد صديق المنشاوي";
+
+// 🎬 فيديو سورة طه — من أشهر تلاواته
+export const demoVideoUrl = "/video/aRUvUzhDx1o";
+export const demoVideoTitle = "سورة طه كاملة بصوت الشيخ محمد صديق المنشاوي — جودة عالية HD";
+
+// 🖼️ الـ Thumbnail والـ Profile Picture
+export const demoThumbnailUrl = "https://i.ytimg.com/vi/aRUvUzhDx1o/maxresdefault.jpg";
+export const demoProfilePicture = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Elminshwey.jpg/369px-Elminshwey.jpg";
