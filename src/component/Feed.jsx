@@ -21,9 +21,10 @@ function Feed() {
         >
         </Typography>
       </Box>
-      <Box>
-        <Typography>
-          <span style={{color:"#FC1503"}}>videos</span>
+      <Box sx={{ p: 2, overflowY: "auto", height: "90vh", flex: 2 }}>
+        <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: "#fff" ,marginLeft:"10px"}}>
+          New
+          <span style={{color:"#FC1503" ,marginLeft:"10px"}}>videos</span>
         </Typography>
       </Box>
     </Stack>
