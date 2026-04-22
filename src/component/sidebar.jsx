@@ -17,14 +17,14 @@ function Sidebar() {
           key={category.name}
           className="category-btn"
           style={{
-            background: category.name === secletedCategory && "#FC1503",
+            background: category.name === secletedCategory && "#03A9F499",
             color: "white",
           }}
         >
           <span
             style={{
               marginRight: "15px",
-              color: category.name === secletedCategory ? "white" : "red",
+              color: category.name === secletedCategory ? "white" : "#03A9F499",
             }}
           >
             {category.icon}

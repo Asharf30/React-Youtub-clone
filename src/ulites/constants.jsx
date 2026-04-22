@@ -10,7 +10,6 @@ import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
 import MosqueIcon from "@mui/icons-material/Mosque";
 import HomeIcon from "@mui/icons-material/Home";
 
-export const logo = "https://i.ibb.co/s9Qys2j/logo.png"; // اللوجو بتاع الموقع (مش بيتغير)
 
 export const categories = [
   { name: "New", icon: <HomeIcon /> },
