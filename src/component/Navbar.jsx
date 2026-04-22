@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Stack from "@mui/material/Stack";
 
-import { logo } from "../ulites/constants";
+import logo2 from "../images/logo_transparent3.png";
 import SearchBar from "./SearchBar";
 
 function Navbar() {
@@ -14,11 +14,10 @@ function Navbar() {
         position: "sticky",
         top: 0,
         justifyContent: "space-between",
-        background: "#000",
       }}
     >
       <Link to="/">
-        <img src={logo} alt="logo" height={45} />
+        <img src={logo2} alt="logo" height={45} style={{backgroundColor:"#0b1a2b"}} />
       </Link>
       <SearchBar />
     </Stack>

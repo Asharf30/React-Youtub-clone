@@ -5,3 +5,4 @@ export { default as SearchFeed } from "./SearchFeed";
 export { default as Navbar } from "./Navbar";
 export { default as SearchBar } from "./SearchBar";
 export { default as Sidebar } from "./sidebar";
+export { default as Videos } from "./videos";
