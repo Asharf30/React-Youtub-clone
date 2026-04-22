@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Stack from "@mui/material/Stack";
 
-import { logo } from "../ulites.jsx/constants";
+import { logo } from "../ulites/constants";
 import SearchBar from "./SearchBar";
 
 function Navbar() {
