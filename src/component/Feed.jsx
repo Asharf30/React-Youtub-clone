@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-
+import Sidebar from "./sidebar";
 function Feed() {
   return (
     <Stack sx={{ flexDirection: { xs: "column", md: "row" } }} gap={2}>
@@ -13,12 +13,12 @@ function Feed() {
           px: { xs: 0, md: 2 },
         }}
       >
+        <Sidebar />
         <Typography
           variant="body2"
           className="copyright"
           sx={{ marginTop: "1px", color: "#fff" }}
         >
-          Copy Right 2026 by Ashraf
         </Typography>
       </Box>
       <Box>
