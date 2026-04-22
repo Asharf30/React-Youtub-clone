@@ -21,6 +21,11 @@ function Feed() {
           Copy Right 2026 by Ashraf
         </Typography>
       </Box>
+      <Box>
+        <Typography>
+          <span style={{color:"#FC1503"}}>videos</span>
+        </Typography>
+      </Box>
     </Stack>
   );
 }
