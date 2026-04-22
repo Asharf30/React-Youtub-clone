@@ -30,7 +30,6 @@ export const categories = [
   { name: "Comedy", icon: <TheaterComedyIcon /> },
   { name: "Gym", icon: <FitnessCenterIcon /> },
   { name: "Crypto", icon: <DeveloperModeIcon /> },
-  
 ];
 
 // 📺 بيانات القناة الرسمية للشيخ محمد صديق المنشاوي
